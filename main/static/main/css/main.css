@@ -58,11 +58,11 @@ main .features {
 main .features h1 {
     font-size: 50px;
     text-align: center;
-    widh: 100%;
+    width: 100%;
 }
 main .features p {
-    margin: 20px; auto;
-    text-align: center;
+    margin: 20px 10px;
+    text-align: justify;
 
     }
 
@@ -83,12 +83,19 @@ main .features ul {
 }
 
 main {
-    padding-left: 20%;
-}
-
-page{
+    margin-left: 20%;
 
 }
+
+.page{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/simple.jpg');
+    min-height: 100vh;
+    overflow:auto;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    
+
+} 
 
 
 form {
